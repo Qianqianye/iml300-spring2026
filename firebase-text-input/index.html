@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase Text Input Demo</title>
+
+     <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="text-input-form">
+            <input type="text" id="text-input-entry" placeholder="How are you?" />
+            <input type="submit" id="text-input-submit" value="Share" />
+        </form>
+
+        <div id="chat-container"></div>
+    </div>
+
+     <!-- Import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>

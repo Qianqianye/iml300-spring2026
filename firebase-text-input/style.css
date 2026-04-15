@@ -1,0 +1,41 @@
+ body {
+     background-color: #d9d2e9;
+     font-family: Helvetica, sans-serif;
+ }
+
+ .container {
+     margin: 30px;
+     text-align: center;
+ }
+
+ input {
+     height: 40px;
+     border: 1px solid #c4c4c4;
+     border-radius: 15px;
+     background-color: transparent;
+     padding: 5px 10px;
+     margin-bottom: 20px;
+ }
+
+ #chat-container {
+     font-size: 30px;
+     margin: auto;
+     width: 70vw;
+     display: grid;
+     grid-template-columns: auto auto auto;
+ }
+
+ .response {
+     background-color: rgba(178, 153, 237, 0.2);
+     color: white;
+     margin: 0.2em;
+     padding: 1em;
+     border-radius: 15px;
+     box-shadow: 0 0 50px rgba(255, 255, 255, 0.7);
+     filter: blur(14px);
+     transition: filter 0.8s ease, background-color 0.8s ease;
+ }
+
+ .response:hover {
+     filter: blur(0px);
+ }
